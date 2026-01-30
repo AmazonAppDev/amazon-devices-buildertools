@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "amazon-devices-buildertools-mcp": {
+      "command": "npx",
+      "args": ["-y", "@amazon-devices/amazon-devices-buildertools-mcp@latest"],
+      "disabled": false,
+      "autoApprove": ["read_document", "list_documents"]
+    }
+  }
+}
