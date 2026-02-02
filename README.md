@@ -1,29 +1,37 @@
-# Amazon Devices Builder Tools Kiro Power
+# Amazon Devices Builder Tools
 
-This repository contains a [Kiro Power](https://kiro.dev/powers/) for Amazon Devices Builder Tools.
+This repo is intended to host Amazon Devices Builder Tools to be distributed on GitHub.
 
-## What is a Kiro Power?
+## Available Tools
 
-A Kiro Power package documentation, workflow guides, and MCP servers to extend Kiro's capabilities. Learn more at [kiro.dev/powers](https://kiro.dev/powers/).
+- **Amazon Devices Builder Tools Power**: A Kiro Power for Amazon Devices OS development starting with Vega OS.
 
-## Installation
+## Amazon Devices Builder Tools Power
 
-This power can be installed in Kiro through the Powers management panel or by adding it to your workspace configuration.
+A Kiro Power for usage of Amazon Devices Builder Tools in app development that provides AI agents with essential context, tools, and guidance for building applications on Amazon Devices OS development starting with Vega OS.
 
-## Power Components
+### What is a Kiro Power?
 
-### MCP Server
+A Kiro Power packages documentation, workflow guides, and MCP servers to extend Kiro's capabilities. Learn more at [kiro.dev/powers](https://kiro.dev/powers/).
+
+### Installation
+
+This power can be installed in Kiro IDE through the Powers management panel or by adding it to your workspace configuration. Learn more at [Install Custom Powers](https://kiro.dev/docs/powers/installation/#install-custom-powers)
+
+### Power Components
+
+#### MCP Server
 - **amazon-devices-buildertools-mcp**: Provides tools for reading Vega documentation, analyzing performance traces, and accessing development guidance
   - Package: `@amazon-devices/amazon-devices-buildertools-mcp`
   - Source: https://www.npmjs.com/package/@amazon-devices/amazon-devices-buildertools-mcp
 
-### Steering Documents
-- **React Native for Vega Get Started Guide**: Comprehensive architectural implementation guide
-
-## Development
+### Development
 
 To modify this power:
 
 1. Update `POWER.md` for power metadata and documentation
 2. Update `mcp.json` for MCP server configuration
-3. Add or modify steering documents in the `steering/` directory
+
+### Test
+
+Follow the instructions in [Install Kiro Powers from Local Path](https://kiro.dev/docs/powers/installation/#from-local-path) to install the modified power with Kiro IDE.

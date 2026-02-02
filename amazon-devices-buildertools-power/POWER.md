@@ -1,13 +1,13 @@
 ---
 name: "amazon-devices-buildertools-power"
 displayName: "Amazon Devices Builder Tools"
-description: "Develop applications and turbomodules on Amazon Vega OS with MCP tools and steering documents - use Amazon Devices Builder Tools(vvd, vega, kepler) and analyze performance"
+description: "Develop applications and turbomodules on Amazon Devices OS(Vega, etc) with MCP tools and steering documents - use Amazon Devices Builder Tools(vvd, vega, kepler) and analyze performance"
 keywords: ["vega", "kepler", "vvd", "react-native", "tv", "amazon", "development", "performance", "mcp"]
 author: "Amazon"
 ---
 # Amazon Devices Builder Tools
 
-A Kiro Power for usage of Amazon Devices Builder Tools in app development that provides AI agents with essential context, tools, and guidance for building applications on the Vega platform.
+A Kiro Power for usage of Amazon Devices Builder Tools in app development that provides AI agents with essential context, tools, and guidance for building applications on Amazon Devices OS development starting with Vega OS.
 
 ## Overview
 
